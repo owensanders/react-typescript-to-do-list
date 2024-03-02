@@ -1,0 +1,33 @@
+.todo {
+    color: rgb(9, 9, 45);
+    list-style-type: none;
+    width: 22rem;
+    background: white;
+    text-align: center;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0.3rem 0
+}
+
+.close {
+    margin-right: 0.3rem;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+}
+
+.label {
+    padding-left: 0.5rem;
+}

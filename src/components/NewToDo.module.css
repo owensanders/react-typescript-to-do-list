@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    color: white;
+}
+
+.input {
+    margin: 3px;
+    width: 22rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    font-size: large;
+}
+
+.input::placeholder {
+    font-size: large;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(9, 9, 45);
+    font-size: medium;
+    padding: 0.3rem 1rem;
+    width: 7rem;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(9, 9, 45);
+    color: white;
+    border: 1px solid white;
+}
